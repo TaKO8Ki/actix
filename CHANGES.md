@@ -1,6 +1,10 @@
 # CHANGES
 
 ## Unreleased - 2020-xx-xx
+* The re-exported `actix-derive` macros are now conditionally included with the `derive` feature
+  which is enabled by default but can be switched off to reduce dependencies. [#424]
+
+[#424]: https://github.com/actix/actix/pull/424
 
 
 ## 0.10.0 - 2020-09-10
